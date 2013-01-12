@@ -2,14 +2,14 @@
 
 <widget xmlns="http://www.w3.org/ns/widgets"
         xmlns:rim="http://www.blackberry.com/ns/widgets"
-	version="1.0.0.0" id="Beard2Pico">
+	version="1.0.0.0" id="Day">
 
-  <name>Beard2Pico</name>
+  <name>What day is it?</name>
 
   <author>Alex Guilmoto</author>
 
   <description>
-       Convert beard seconds to pico seconds.
+       An app to tell you what day it is.
   </description>
   
 	<feature id="blackberry.app" version="1.0.0.0" required="true"/>
@@ -29,6 +29,6 @@
     <rim:transitionEffect type="fadeOut" />
   </rim:loadingScreen>
 
-  <content src="beardToPico.html" />
+  <content src="whatdayisit.html" />
 
 </widget>
